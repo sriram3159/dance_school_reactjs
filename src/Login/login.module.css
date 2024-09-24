@@ -1,0 +1,32 @@
+*{
+    text-decoration: none;
+}
+
+.section
+{
+    background-image: url(https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2022/7/26/uraoyi6strfrgebxigxc/red-bull-dance-your-style-2022-india);
+    background-size: cover;
+    height: 670px;
+}
+.login
+{
+    height: 57%;
+    width: 25%;
+    border-radius:5px ;
+    background-color: #e9edef;
+    position: absolute;
+    margin: auto;
+    right: 5%;
+    bottom: 18%;
+        
+}
+.login>div
+{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    padding: 10% 20%;
+}
+
+

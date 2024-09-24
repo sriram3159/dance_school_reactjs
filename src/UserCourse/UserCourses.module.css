@@ -1,0 +1,61 @@
+/*View Course */
+
+#head{
+    font-Size:30px;
+    font-weight:'bolder';
+    font-Variant:'all-petite-caps';
+    padding:10px;
+    background-color: black;
+    color: #ebccdf;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.home
+{
+    color: #ebccdf;
+    position: relative;
+    top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.viewCourse
+{
+    background-color: black;
+    color: #ebccdf;
+    border-radius: 10px;
+    width: 30%;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.viewCourse img{
+    width:100%;
+    border-top-left-radius:10px ;
+      border-top-right-radius:10px;
+
+}
+#select
+{
+    animation-duration: 3s;
+
+}
+.viewCourse img:hover
+{
+   animation-name: zoom;
+   animation-timing-function: ease;
+}
+
+
+
+@keyframes zoom {   
+0%{transform: scale(1.0)}
+50%{transform: scale(1.1)}
+}
+
+

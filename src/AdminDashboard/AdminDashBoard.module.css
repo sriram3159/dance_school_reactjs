@@ -1,0 +1,225 @@
+
+*
+{
+    font-family: 'Comme', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+/* Admin dashboard */
+.adminDashBoard
+{
+    width: 19%;
+
+    background-color:#f8f9fa ;
+    border-left:2px solid rgb(194, 121, 121);
+    border-right:2px solid rgb(194, 121, 121);
+    position:sticky;
+    top: 0;
+    height: 100vh;
+    
+
+    
+}
+
+.adminDashBoard ul li
+{
+    width: auto;
+    padding:20px;
+    border-bottom: 1px solid black;
+}
+
+
+
+/* Details */
+.adminMainBar
+{
+    width: 100%;
+    height: 100vh+100%;
+
+    background-image: url(https://c.wallhere.com/photos/e7/be/ballerina_women-128763.jpg!d);
+    background-size: cover;
+    background-position: 0px -90px;    
+    background-attachment: fixed;
+}
+
+.details div ul li,#input{
+    width: 350px;
+    list-style-type: none;
+    
+}
+
+.details div ul{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    padding-left:100px;
+    gap: 20px;
+}
+#buttonD
+{
+    width: 400px;
+}
+
+/* View Manager */
+.viewManager
+{
+    background-color: #ebccdf;
+    padding: 0.5%;
+    margin: 1%;
+    width: 35%;
+  
+    border-radius: 75px;
+
+    border: 1px solid red;
+    display: flex;
+    box-sizing: border-box;
+}
+.viewManager div
+{
+    padding: 10px;
+    line-height: 180%;
+}
+
+/* ViewAcademyManager detail */
+.mainDiv
+{
+    width: 60%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    box-sizing: border-box;
+    background-color: #ebccdf;
+    border-radius: 3%;
+    position: relative;
+    left: 15%;
+    top: 20%;
+    opacity: 0.8;
+    
+
+
+}
+.subDiv
+{
+    width: 50%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+
+.subDiv ul{
+    list-style-type:none;
+}
+
+.subDiv ul li{
+padding: 8px 0;
+}
+.subDiv ul li:first-child
+{
+    font-variant-caps: all-petite-caps;
+    font-weight: 1000;
+    font-size: xx-large;
+}
+#vd_button
+{
+    margin:0 2%;
+}
+.mainDiv img{
+    width: 40%;
+    height: auto; 
+
+}
+
+/* View Academy */
+
+.VA_table tr td
+{
+    border: 1px solid black;
+    text-align: center;
+    padding: 0 1vh;
+}
+
+.VA_table {
+    border-collapse: collapse;
+    display: inline-table;
+    justify-content: center;
+    
+    
+    
+}
+.VA_table tr:first-child
+{
+    background-color: red;
+}
+.VA_center
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+/* view Branch */
+.viewBranch
+{
+    background-color: #ebccdf;
+    border-radius: 10px;
+
+}
+.viewBranch div
+{
+    padding: 10px;
+    width: 100%;
+    line-height: 180%;
+    
+}
+.viewBranch * ::first-letter
+{
+    text-transform: capitalize;
+}
+
+/*View Course */
+.viewCourse
+{
+    background-color: black;
+    color: #ebccdf;
+    border-radius: 10px;
+    width: 30%;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.viewCourse img{
+    width:100%;
+    border-top-left-radius:10px ;
+      border-top-right-radius:10px;
+
+}
+#select
+{
+    animation-duration: 3s;
+
+}
+.viewCourse img:hover
+{
+   animation-name: zoom;
+   animation-timing-function: ease;
+}
+
+
+
+@keyframes zoom {   
+0%{transform: scale(1.0)}
+50%{transform: scale(1.1)}
+}

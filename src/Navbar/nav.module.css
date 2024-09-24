@@ -1,0 +1,42 @@
+
+.navbar
+{
+    width: auto;
+    background-color: #e9edef;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+  
+}
+#logo{
+    font-family: 'Comme', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: large;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT60S862TaqNmEmakbPmUTXq4qCb-cX8xrHJeOeIDLdEruQSVDLQSoHo_0O4lmvPJq-cz4&usqp=CAU);
+    height: 10vh;
+    width: 9.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Nmenu ul
+{
+    display: flex;
+    width: 90vh;
+    list-style: none;
+    justify-content: space-evenly;
+    color: black;
+    position: relative;
+    font-family: 'Comme', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+
+}
+
+

@@ -1,0 +1,27 @@
+.section
+{
+    background-image: url(https://static01.nyt.com/images/2023/04/21/multimedia/dth1-zbjm/dth1-zbjm-videoSixteenByNine3000.jpg);
+    background-size: cover;
+    height: 90vh;
+}
+.login
+{
+    height: 460px;
+    width: 400px;
+    border-radius:5px ;
+    background-color: #e9edef;
+    position: relative;
+    left: 1100px;
+    top: 100px;
+    
+}
+.login>div
+{
+    position: relative;
+    top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 40%;
+    left: 80px;
+    position: absolute;
+}

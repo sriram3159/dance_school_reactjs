@@ -1,0 +1,32 @@
+.mSignup
+{
+    background-image: url(https://wallpapercave.com/wp/wp9559424.jpg);
+    background-size: cover;
+    height: calc(100vh) ;
+}
+.input
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    width: 70%;
+    justify-content: center;
+    transform: translate(20%,8%);
+   
+}
+
+.signup{
+    height: 83%;
+    width: 26%;
+    background-color: #dce9ef;
+    position: relative;
+    transform: translate(80px,50px);
+    opacity: 0.6;
+    color:black;
+    border-radius: 10px;
+}
+#signupB
+{
+    width: 107%;    
+}
+
